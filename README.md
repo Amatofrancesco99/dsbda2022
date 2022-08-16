@@ -1,7 +1,7 @@
 # dsbda2022
 
 ## Objective
-The goal of the project is to study the **Steam platform gaming community**.<br>
+The goal of the project is to study the **Steam platform gaming community** using both standard python, and Big Data tools.<br>
 More specifically, considering the users' reviews the objective is to understand, with the statement of some hypotesis, relevant correlation about the *players behavior* (e.g., identify factors such that a player like a video game, if the user is loyal to the same genre, ...).
 
 ## Procedure
