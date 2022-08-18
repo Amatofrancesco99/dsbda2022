@@ -1,4 +1,4 @@
-# Data Science & Big Data Analytics (dsbda) - 2022
+# Data Science & Big Data Analytics (dsbda) project - 2022 (UniPV)
 
 ## Objective
 The goal of the project is to study the **Steam platform gaming community** using both standard python, and Big Data tools.<br>
