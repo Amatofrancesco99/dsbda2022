@@ -1,4 +1,4 @@
-# dsbda2022
+# Data Science & Big Data Analytics (dsbda) - 2022
 
 ## Objective
 The goal of the project is to study the **Steam platform gaming community** using both standard python, and Big Data tools.<br>
