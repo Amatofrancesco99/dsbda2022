@@ -1,4 +1,4 @@
-import scipy
+import scipy.stats
 
 
 def cohen_d(x, y):
