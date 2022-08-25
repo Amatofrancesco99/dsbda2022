@@ -23,20 +23,19 @@ def cohen_d(x, y):
 
 
 def mean_test(x, mu):
-    """Perform the mean test:
+    """ Perform the mean test:
         - Is the mean of the input (x) greater or equal to the expected mean (mu)?
         - Is it statistically significant?
 
-    See https://www.w3schools.com/statistics/statistics_hypothesis_testing_mean.php for more
-    details and the actual formula implemented in this funciton.
+    See https://www.w3schools.com/statistics/statistics_hypothesis_testing_mean.php for more details
+    and the actual formula implemented in this funciton.
 
     Args:
         x: An array-like containing samples drawn from a randomly selected population.
 
     Returns:
-        statistics: a metric proportional to the difference between the input (x) mean and the
-            expected mean (mu).
-        p_value: level of statistical significance.
+        statistics: basically a measure proportional to the difference between the input (x) mean and the expected mean (mu)
+        p_value: level of significance
     """
 
     n_x = len(x)
