@@ -9,6 +9,9 @@ for line in sys.stdin:
     # its fields
     line = line.rstrip()
     fields = line.split('\t')
+    sep = '$'
+    appidsteamid = fields[0].split(sep)
+    fields = [*appidsteamid, *fields[1:]]
 
     if fields[1] == '-':
         # This is a line of the preprocessed games dataset
