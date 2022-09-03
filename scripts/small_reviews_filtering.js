@@ -6,7 +6,7 @@
     *     - removes records with null/empty text reviews.
     * 
     * How to run this script:
-    * $ mongosh -f filtering_revs_mongo.js
+    * $ mongosh -f small_reviews_filtering.js
 */
 
 // Connect to the MongoDB instance and select the final_project database
