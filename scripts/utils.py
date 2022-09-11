@@ -43,10 +43,10 @@ def mean_test(x, mu):
     Returns:
         A tuple of the form (statistic, p_value) where statistic is
         proportional to the difference between the input (x) mean and
-        the expected mean (mu) and p_value is the level of significance
+        the expected mean (mu) and p_value is the level of significance.
     """
 
     n_x = len(x)
     statistic = (x.mean() - mu) * (n_x ** 0.5) / x.std(ddof=1)
-    p_value =  1 - scipy.stats.t.cdf(statistics, n_x - 1)
+    p_value =  1 - scipy.stats.t.cdf(statistic, n_x - 1)
     return statistic, p_value
